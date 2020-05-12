@@ -20,7 +20,6 @@ a
 header
 {
     color: #fff;
-    /* background: #424242; */
     display: flex;
     align-items: center;
     width: 80%;
@@ -82,7 +81,6 @@ footer
 {
     flex: 1.5;
     align-self: center;
-    /* background: red; */
 }
 
 .introduction h1
@@ -132,6 +130,7 @@ footer
 .sections h1
 {
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .section-text
@@ -174,13 +173,13 @@ footer
 .vlog-section
 {
     flex-direction: column;
+    height: 150vh;
 }
 
 .vlog-work
 {
     text-align: center;
     padding-bottom: 20px;
-    /* background: red; */
 }
 
 .vlog-text
@@ -188,9 +187,99 @@ footer
     padding-top: 20px;
 }
 
+.vlog-section-img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .vlog-section-img img
 {
     width: 45%;
+}
+
+.img-descp
+{
+    display: flex;
     flex-direction: row;
-    padding-left: 50px;
+}
+
+.img-descp a, .img-descp-item
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+/* ============================================ PRODUCTIVITY SECTION ==================================== */
+
+.productivity-section
+{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.fav-video
+{
+    flex: 1;
+}
+
+.productivity-work
+{
+    flex: 1;
+}
+
+/* ======================================= QUOTE SECTION ============================================= */
+
+.quote-section
+{
+    display: flex;
+    align-items: center;
+}
+
+.quote-img
+{
+    flex: 1;
+}
+
+.quote-img img
+{
+    width: 80%;
+}
+
+.quote
+{
+    display: flex;
+    flex: 1.5;
+}
+
+.quote-header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.quotation-mark-img
+{
+    opacity: 0.2;
+    width: 25%;
+}
+
+.text-style
+{
+    text-align: justify;
+}
+
+.quote-owner
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
 }
