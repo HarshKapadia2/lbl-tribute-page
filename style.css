@@ -30,6 +30,7 @@ header
 footer
 {
     text-align: center;
+    padding-bottom: 1%;
 }
 
 .background-img
@@ -65,9 +66,9 @@ footer
     color: #fff;
 }
 
-/* ========================================== INTRO SECTION ========================================= */
+/* ========================================== LANDING PAGE ========================================= */
 
-.intro-section
+.main
 {
     display: flex;
     justify-content: center;
@@ -276,4 +277,34 @@ footer
     display: flex;
     justify-content: flex-end;
     padding-top: 1%;
+}
+
+/* ==================================== TWEET SECTION ========================================= */
+
+.tweet-section
+{
+    align-items: center;
+    flex-direction: row;
+}
+
+.lbl-logo-small
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.tweet-card
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tweet-text
+{
+    padding-bottom: 2%;
+    text-align: center;
 }
