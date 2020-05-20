@@ -30,6 +30,7 @@ header
 footer
 {
     text-align: center;
+    padding-top: 10%;
     padding-bottom: 1%;
 }
 
@@ -38,7 +39,7 @@ footer
     background-image: url(./img/lbl-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 0;
 }
 
 .logo
@@ -46,7 +47,7 @@ footer
     flex: 1;
 }
 
-.lbl-logo
+.logo img
 {
     padding-top: 3%;
     width: 30%;
@@ -88,6 +89,11 @@ footer
 {
     font-weight: 500;
     font-size: 73px;
+    filter: drop-shadow(2px 2px 5px #424242);
+}
+
+.introduction h3
+{
     filter: drop-shadow(2px 2px 5px #424242);
 }
 
@@ -151,6 +157,7 @@ footer
 .dj-section-img
 {
     flex: 1;
+    align-items: center;
 }
 
 .dj-section-img img
@@ -182,30 +189,22 @@ footer
     padding-bottom: 2%;
 }
 
-.vlog-section-img
+.vlog-imgs
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.vlog-section-img img
-{
-    width: 45%;
-}
-
-.img-descp
+.vlog-img-block
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.img-descp a, .img-descp-item
+.vlog-img-block img
 {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    justify-content: center;
+    width: 100%;
 }
 
 /* ============================================ PRODUCTIVITY SECTION ==================================== */
@@ -307,4 +306,234 @@ footer
 {
     padding-bottom: 2%;
     text-align: center;
+}
+
+/* ========================================= RESPONSIVENESS ============================================ */
+
+/* Four screen sizes have been taken care of:
+    - max-width: 1024px
+    - max-width: 850px
+    - max-width: 500px
+    - height: 812px
+*/
+
+@media screen and (max-width: 1024px)
+{
+    .dj-section
+    {
+        height: 150vh;
+        flex-direction: column;
+        /* padding-top: 20%; */
+    }
+
+    .dj-section-img
+    {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+
+    .dj-section-img img
+    {
+        width: 100%;
+    }
+
+    .productivity-section
+    {
+        flex-direction: column;
+    }
+
+    .tweet-section
+    {
+        flex-direction: column;
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    .main
+    {
+        flex-direction: column;
+    }
+
+    .background-img
+    {
+        background-position: 10%;
+    }
+
+    .logo img
+    {
+        width: 60%;
+    }
+
+    .introduction
+    {
+        padding-top: 30%;
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .cover-img
+    {
+        display: none;
+    }
+
+    .section-text
+    {
+        font-size: 18px;
+    }
+
+    .dj-work iframe, .productivity-section iframe
+    {
+        width: 90%;
+    }
+
+    .vlog-section
+    {
+        height: 330vh;
+    }
+
+    .vlog-imgs
+    {
+        flex-direction: column;
+    }
+
+    .productivity-section
+    {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .logo img
+    {
+        width: 100%;
+    }
+
+    .background-img
+    {
+        background-position: 25%;
+    }
+
+    .introduction
+    {
+        position: absolute;
+        bottom: 5%;
+    }
+
+    .introduction h1
+    {
+        font-size: 45px;
+    }
+
+    .introduction h3
+    {
+        font-size: 15px;
+    }
+
+    .cover-img
+    {
+        display: none;
+    }
+
+    .sections h1
+    {
+        font-size: 30px;
+    }
+
+    .section-text
+    {
+        font-size: 15px;
+    }
+
+    .dj-section
+    {
+        height: 150vh;
+    }
+
+    .dj-section-img
+    {
+        flex: 0.5;
+    }
+
+    .vlog-section
+    {
+        height: 200vh;
+    }
+
+    .productivity-section
+    {
+        height: 65vh;
+        padding-top: 20%;
+    }
+
+    .quote-section
+    {
+        height: 125vh;
+        padding-top: 20%;
+        flex-direction: column-reverse;
+    }
+
+    .quote-img
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+    }
+
+    .tweet-section
+    {
+        padding-top: 20%;
+    }
+
+    .lbl-logo-small img
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (height: 812px)
+{
+    .dj-section
+    {
+        height: 130vh;
+    }
+    
+    .vlog-section
+    {
+        height: 150vh;
+    }
+
+    .productivity-section
+    {
+        height: 50vh;
+    }
+
+    .quote-section
+    {
+        height: 100vh;
+    }
+
+    .align-div
+    {
+        height: 50vh;
+    }
+
+    .quote-img img
+    {
+        width: 90%;
+    }
+
+    .lbl-logo-small
+    {
+        align-items: center;
+    }
+    
+    .lbl-logo-small img
+    {
+        width: 90%;
+        height: 80%;
+    }
 }
