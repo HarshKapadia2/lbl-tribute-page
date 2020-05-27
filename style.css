@@ -351,7 +351,9 @@ footer
 
     .lbl-logo-small img
     {
-        width: 90%;
+        height: 50%;
+        display: flex;
+        align-self: center;
     }
 }
 
@@ -495,7 +497,8 @@ footer
 
     .lbl-logo-small img
     {
-        width: 90%;
+        width: 50%;
+        height: 55%;
     }
 }
 
@@ -538,6 +541,7 @@ footer
     
     .lbl-logo-small img
     {
+        height: 60%;
         width: 90%;
     }
 }
