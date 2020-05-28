@@ -30,8 +30,7 @@ header
 footer
 {
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 1%;
+    padding: 10% 2% 2% 2%;
 }
 
 .background-img
@@ -94,6 +93,7 @@ footer
 
 .introduction h3
 {
+    padding: 2%;
     filter: drop-shadow(2px 2px 5px #424242);
 }
 
