@@ -1,7 +1,7 @@
 # Welcome, contributors! :smiley:
 
 - Please be mindful of the [code of conduct](CODE_OF_CONDUCT.md) while interacting or contributing!
-- Feel free to add or correct any information to/on this repo!
+- **Have a look at the [issues](https://github.com/HarshKapadia2/lbl-tribute-page/issues) section for issues that need to be solved!**
 - If you make a contribution, please do not forget to add your personal details to the [CONTRIBUTORS.md](CONTRIBUTORS.md) file!
 
 ## Local setup
