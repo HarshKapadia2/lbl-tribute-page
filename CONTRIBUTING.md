@@ -12,3 +12,6 @@
 - **Commit your code using the [correct commit message structure](https://harshkapadia2.github.io/git_basics/#_git_commit).** Eg: ':bug: fix: Correct typo in git.adoc (#0)' which is typed as `:bug: fix: Correct typo in git.adoc (#0)`.
 - Push the code to your forked repo.
 - Make a PR!
+
+## Further help
+If any further help is needed, do not hesitate to contact me on [Twitter (@harshgkapadia)](https://twitter.com/harshgkapadia) or via e-mail `harshgkapadia@gmail.com`.
