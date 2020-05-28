@@ -4,6 +4,11 @@
 - **Have a look at the [issues](https://github.com/HarshKapadia2/lbl-tribute-page/issues) section for issues that need to be solved!**
 - If you make a contribution, please do not forget to add your personal details to the [CONTRIBUTORS.md](CONTRIBUTORS.md) file!
 
+## Technologies used
+
+- HTML 5
+- CSS 3 (with Flexbox)
+
 ## Local setup
 
 - Fork this repo (top right corner)
