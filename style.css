@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body
 {
     font-family: 'Montserrat', sans-serif;
@@ -12,6 +13,9 @@ body
     color: #fff;
 }
 
+.header-icon {
+    padding-top: 6rem;
+}
 a
 {
     color: yellow;
@@ -23,7 +27,6 @@ header
     display: flex;
     align-items: center;
     width: 80%;
-    margin: auto;
     height: 7vh;
 }
 
@@ -182,6 +185,7 @@ footer
 .vlog-work
 {
     text-align: center;
+    
 }
 
 .vlog-text
@@ -351,9 +355,10 @@ footer
 
 @media screen and (max-width: 1024px)
 {
+
     .dj-section
     {
-        height: 150vh;
+        height: auto;
         flex-direction: column;
         /* padding-top: 20%; */
     }
@@ -391,6 +396,7 @@ footer
 
 @media screen and (max-width: 850px)
 {
+
     .main
     {
         flex-direction: column;
@@ -430,7 +436,7 @@ footer
 
     .vlog-section
     {
-        height: 330vh;
+        height: auto;
     }
 
     .vlog-imgs
@@ -440,7 +446,7 @@ footer
 
     .productivity-section
     {
-        height: 40vh;
+        height: auto;
     }
 }
 
@@ -489,7 +495,7 @@ footer
 
     .dj-section
     {
-        height: 150vh;
+        height: auto;
     }
 
     .dj-section-img
@@ -499,18 +505,18 @@ footer
 
     .vlog-section
     {
-        height: 200vh;
+        height: auto;
     }
 
     .productivity-section
     {
-        height: 65vh;
+        height: auto;
         padding-top: 20%;
     }
 
     .quote-section
     {
-        height: 125vh;
+        height: auto;
         padding-top: 20%;
         flex-direction: column-reverse;
     }
@@ -538,27 +544,27 @@ footer
 {
     .dj-section
     {
-        height: 130vh;
-    }
+        height: auto;
+    } 
     
     .vlog-section
     {
-        height: 150vh;
+        height: auto;
     }
 
     .productivity-section
     {
-        height: 50vh;
+        height: auto;
     }
 
-    .quote-section
+     .quote-section
     {
-        height: 100vh;
+        height: auto;
     }
 
     .align-div
     {
-        height: 50vh;
+        height: auto;
     }
 
     .quote-img img
@@ -576,4 +582,4 @@ footer
         height: 60%;
         width: 90%;
     }
-}
+} 
