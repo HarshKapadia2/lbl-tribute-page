@@ -13,9 +13,6 @@ body
     color: #fff;
 }
 
-.header-icon {
-    padding-top: 6rem;
-}
 a
 {
     color: yellow;
@@ -215,7 +212,7 @@ footer
 
 .productivity-section
 {
-    height: 50vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
