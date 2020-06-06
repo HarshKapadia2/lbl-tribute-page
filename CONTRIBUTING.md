@@ -14,6 +14,7 @@
 - Fork this repo (top right corner)
 - Clone your forked repo using the [`git clone`](https://harshkapadia2.github.io/git_basics/#_git_clone) command.
 - Make your changes to the repo!
+> Please use HTML and vanilla CSS (with Flexbox) only. No CSS frameworks or CSS Grid please!
 - **Commit your code using the [correct commit message structure](https://harshkapadia2.github.io/git_basics/#_git_commit).** Eg: ':bug: fix: Correct typo in git.adoc (#0)' which is typed as `:bug: fix: Correct typo in git.adoc (#0)`.
 - Push the code to your forked repo.
 - Make a PR!
