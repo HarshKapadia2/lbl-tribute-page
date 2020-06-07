@@ -8,6 +8,12 @@
 
 ---
 
+*Luke and his wife's reaction to the web site (I released it on my birthday)*
+
+![Laidback Luke's reaction to the web site](img/lbl-reaction.jpg)
+
+---
+
 ## Contributions
 
 - All contributors are most welcome!
@@ -17,3 +23,7 @@
 ## Code of conduct
 
 - Please view the [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) file for details.
+
+---
+
+The author's log of the progress of building the web site can be found [here](https://twitter.com/harshgkapadia/status/1258047948014804992?s=20).
