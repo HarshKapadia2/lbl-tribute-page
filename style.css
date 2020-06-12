@@ -225,6 +225,7 @@ footer
 .fav-video
 {
     flex: 1;
+    padding-top: 5rem;
 }
 
 .productivity-work
