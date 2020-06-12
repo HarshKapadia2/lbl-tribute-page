@@ -9,16 +9,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #000;
     color: #fff;
-    margin:auto;
+    margin: auto;
 }
 
 a {
     color: yellow;
 }
 
-.link:hover { 
+.link:hover {
     color: #00FF00;
- }
+}
 
 header {
     color: #fff;
@@ -150,7 +150,7 @@ footer {
     flex: 1.5;
     text-align: center;
     width: 90%;
-    margin:auto;
+    margin: auto;
 }
 
 /* ========================================= VLOG SECTION ================================================== */
@@ -313,7 +313,7 @@ footer {
 
     .dj-section {
         flex-direction: column;
-        
+
         /* padding-top: 20%; */
     }
 
@@ -461,10 +461,11 @@ footer {
 }
 
 @media screen and (height: 812px) {
-     .dj-section {
+    .dj-section {
         height: 100vh;
     }
-/*
+
+    /*
     .vlog-section {
         height: 150vh;
     }
