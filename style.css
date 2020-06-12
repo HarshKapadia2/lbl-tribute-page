@@ -47,7 +47,6 @@ footer {
 .logo img {
     padding-top: 3%;
     width: 30%;
-    height: auto;
     filter: drop-shadow(1px 1px 3px #424242);
 }
 
@@ -150,6 +149,8 @@ footer {
 .dj-work {
     flex: 1.5;
     text-align: center;
+    width: 90%;
+    margin:auto;
 }
 
 /* ========================================= VLOG SECTION ================================================== */
@@ -187,7 +188,6 @@ footer {
 /* ============================================ PRODUCTIVITY SECTION ==================================== */
 
 .productivity-section {
-    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -275,7 +275,6 @@ footer {
 /* ======================================== FOLLOW SECTION ======================================= */
 
 .follow-section {
-    height: auto;
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
@@ -313,7 +312,6 @@ footer {
 @media screen and (max-width: 1024px) {
 
     .dj-section {
-        height: auto;
         flex-direction: column;
         /* padding-top: 20%; */
     }
@@ -377,17 +375,17 @@ footer {
         width: 90%;
     }
 
-    .vlog-section {
-        height: auto;
-    }
+    /* .vlog-section {
+        height: 330vh;
+    } */
 
     .vlog-imgs {
         flex-direction: column;
     }
 
-    .productivity-section {
-        height: auto;
-    }
+    /* .productivity-section {
+        height: 40vh;
+    } */
 }
 
 @media screen and (max-width: 500px) {
@@ -424,25 +422,23 @@ footer {
         font-size: 15px;
     }
 
-    .dj-section {
-        height: auto;
-    }
+    /* .dj-section {
+        height: 150vh;
+    } */
 
     .dj-section-img {
         flex: 0.5;
     }
 
-    .vlog-section {
-        height: auto;
-    }
+    /* .vlog-section {
+        height: 200vh;
+    } */
 
     .productivity-section {
-        height: auto;
         padding-top: 20%;
     }
 
     .quote-section {
-        height: auto;
         padding-top: 20%;
         flex-direction: column-reverse;
     }
@@ -464,25 +460,25 @@ footer {
 }
 
 @media screen and (height: 812px) {
-    .dj-section {
-        height: auto;
+    /* .dj-section {
+        height: 130vh;
     }
 
     .vlog-section {
-        height: auto;
+        height: 150vh;
     }
 
     .productivity-section {
-        height: auto;
+        height: 50vh;
     }
 
     .quote-section {
-        height: auto;
+        height: 100vh;
     }
 
     .align-div {
-        height: auto;
-    }
+        height: 50vh;
+    } */
 
     .quote-img img {
         width: 90%;
