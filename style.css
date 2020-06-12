@@ -152,6 +152,7 @@ footer
 {
     display: flex;
     align-items: center;
+    padding-top: 3rem;
 }
 
 .dj-section-img
@@ -177,6 +178,7 @@ footer
 {
     flex-direction: column;
     height: 150vh;
+    padding-top: 10rem;
 }
 
 .vlog-work
