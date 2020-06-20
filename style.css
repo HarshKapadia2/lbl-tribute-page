@@ -291,7 +291,8 @@ header {
 .follow-section {
     flex-direction: column;
     align-items: center;
-    padding-top: 1rem;
+    height: auto;
+    margin-top: 2rem;
 }
 
 .luke-links {
