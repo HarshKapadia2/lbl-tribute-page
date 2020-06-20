@@ -387,9 +387,13 @@ header {
         width: 90%;
     }
 
-    /* .vlog-section {
-        height: 330vh;
-    } */
+    .vlog-section {
+        height: auto;
+    }
+
+    .dj-section {
+        height: auto;
+    }
 
     .vlog-imgs {
         flex-direction: column;
@@ -435,16 +439,16 @@ header {
     }
 
     .dj-section {
-        height: 100vh;
+        height: auto;
     }
 
     .dj-section-img {
         flex: 0.5;
     }
 
-    /* .vlog-section {
-        height: 200vh;
-    } */
+    .vlog-section {
+        height: auto;
+    }
 
     .productivity-section {
         padding-top: 20%;
@@ -473,14 +477,14 @@ header {
 
 @media screen and (height: 812px) {
     .dj-section {
-        height: 100vh;
+        height: auto;
     }
 
-    /*
+    
     .vlog-section {
-        height: 150vh;
+        height: auto;
     }
-
+    /*
     .productivity-section {
         height: 50vh;
     }
