@@ -65,7 +65,7 @@ header {
 }
 
  h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-bottom: 2%;
 }
 
@@ -169,9 +169,9 @@ header {
 .vlog-section {
     flex-direction: column;
     height: 150vh;
-    padding-top: 10rem;
     width: 90%;
     margin: auto;
+    margin-top: 2rem;
 }
 
 .vlog-work {
@@ -205,6 +205,7 @@ header {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    height: auto;
 }
 
 .fav-video {
@@ -402,9 +403,9 @@ header {
         flex-direction: column;
     }
 
-    /* .productivity-section {
-        height: 40vh;
-    } */
+    .productivity-section {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 500px) {
