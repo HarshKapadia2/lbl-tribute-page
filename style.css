@@ -205,12 +205,11 @@ header {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    padding-top: 3rem;
 }
 
 .fav-video {
     flex: 1;
-    padding-top: 5rem;
+    
 }
 
 .productivity-work {
