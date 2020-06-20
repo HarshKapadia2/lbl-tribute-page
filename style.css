@@ -170,6 +170,8 @@ header {
     flex-direction: column;
     height: 150vh;
     padding-top: 10rem;
+    width: 90%;
+    margin: auto;
 }
 
 .vlog-work {
