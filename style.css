@@ -262,6 +262,7 @@ header {
 .tweet-section {
     align-items: center;
     flex-direction: row;
+    margin-top: 1rem;
 }
 
 .lbl-logo-small {
@@ -288,7 +289,7 @@ header {
 .follow-section {
     flex-direction: column;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .luke-links {
