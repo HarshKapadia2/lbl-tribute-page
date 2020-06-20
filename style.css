@@ -327,8 +327,6 @@ h1 {
 
     .dj-section {
         flex-direction: column;
-
-        /* padding-top: 20%; */
     }
 
     .dj-section-img {
@@ -487,19 +485,6 @@ h1 {
     .vlog-section {
         height: auto;
     }
-
-    /*
-    .productivity-section {
-        height: 50vh;
-    }
-
-    .quote-section {
-        height: 100vh;
-    }
-
-    .align-div {
-        height: 50vh;
-    } */
 
     .quote-img img {
         width: 90%;
