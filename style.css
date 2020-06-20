@@ -64,6 +64,11 @@ header {
     margin: auto;
 }
 
+ h1 {
+    font-size: 40px;
+    padding-bottom: 2%;
+}
+
 /* ========================================== LANDING PAGE ========================================= */
 
 .main {
