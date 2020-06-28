@@ -4,13 +4,13 @@
 
 *A tribute page for my idol **Laidback Luke**, a humble person :yellow_heart: and an amazing DJ and producer! :fire:*
 
-![Laidback Luke](img/laidback_luke_readme.png)
+![Laidback Luke](static/img/laidback_luke_readme.png)
 
 ---
 
 *Luke and his wife's reaction to the web site (I released it on my birthday)*
 
-![Laidback Luke's reaction to the web site](img/lbl-reaction.jpg)
+![Laidback Luke's reaction to the web site](static/img/lbl-reaction.jpg)
 
 ---
 
