@@ -34,7 +34,7 @@ footer {
 }
 
 .background-img {
-    background-image: url(./img/lbl-background.jpg);
+    background-image: url(../img/lbl-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 0;
